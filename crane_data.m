@@ -1,0 +1,11 @@
+l =1.5; %Rope length
+v = 20/60;%Trolley max speed
+trolley_len=9;% Trolley movement range 0 - 9
+M=250; % Trolley weight
+P=300;% Maximum Trolley motor power
+F_max = P/v;% vertical hoist speed
+m_hook=5;% hook weight
+m_payload=20;%payload weight
+m_hook_and_payload = m_hook+m_payload;
+
+ 
